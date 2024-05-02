@@ -118,16 +118,19 @@ H2{
 #TExtO{
   width: 700px;
   margin: 0px auto;
-  background-color:  #ced2aa ;
-  text-align: justify;
+  background-color:  #6c446d ;
+  text-align: center;
   letter-spacing: 2px;
   font-size: 18px;
-  border: 1px solid  #0e0e0e;
+  color: #ffffff;
+  height: 90px;
+
+ 
 }
 #imagen2 {
   width: 700px;
   margin: 9px auto;
-  background-color:  #000000;
+  background-color:  #553556;
   top: 1000px;
   text-align: center;
   border: 1px solid  #0e0e0e;
@@ -248,4 +251,9 @@ height: 60px;
   filter: brightness(90%);
   font-size: 25px;
   text-align: center;
+}
+#imagenM {
+  width: 250px;
+  height: 250px;
+  
 }
