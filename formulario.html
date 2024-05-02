@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Satisfacción del Juego</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .rating {
+            margin-bottom: 10px;
+            width: 200px;
+        }
+        .rating label {
+            margin-right: 20px;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #dcd6ab;
+            width: 1050px;
+            border: 3px solid  #ffffff;
+            margin: auto;
+        }
+      
+        form { 
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(59, 20, 59);
+            font-size: 20px;
+            font-style: italic;
+            font-weight: bold;
+            width: 100px;
+        }
+        h1{
+            background-color: rgba(210, 210, 210, 0.2);
+            margin-left: auto;
+            padding: 15px;
+            margin-bottom: 30px;
+            letter-spacing: 15px;
+            color: rgb(48, 7, 87);  
+        }
+        button{
+           padding: 10px;
+           color: rgb(0, 0, 0);
+           font-weight: bold;
+        }
+        input{
+            color: black;
+            font-weight: bolder;
+        }
+        div{
+            margin: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <button onclick="window.location.href = 'index.html';">Ir a la página principal</button>
+    <div class="container">
+        <h1>Formulario de Satisfacción del Juego</h1>
+        <p>Por favor, si tendria un momento para qualificar nuestro juego, seria de gran ayuda!.</p>
+        <form action="/procesar_satisfaccion" method="post">
+            <div class="rating">
+                <label for="calidad">Calidad del juego:</label>
+                <input type="radio" id="calidad1" name="calidad" value="1">
+                <label for="calidad1">1</label>
+                <input type="radio" id="calidad2" name="calidad" value="2">
+                <label for="calidad2">2</label>
+                <input type="radio" id="calidad3" name="calidad" value="3">
+                <label for="calidad3">3</label>
+                <input type="radio" id="calidad4" name="calidad" value="4">
+                <label for="calidad4">4</label>
+                <input type="radio" id="calidad5" name="calidad" value="5">
+                <label for="calidad5">5</label>
+            </div>
+            <div class="rating">
+                <label for="diversion">Nivel de diversión:</label>
+                <input type="radio" id="diversion1" name="diversion" value="1">
+                <label for="diversion1">1</label>
+                <input type="radio" id="diversion2" name="diversion" value="2">
+                <label for="diversion2">2</label>
+                <input type="radio" id="diversion3" name="diversion" value="3">
+                <label for="diversion3">3</label>
+                <input type="radio" id="diversion4" name="diversion" value="4">
+                <label for="diversion4">4</label>
+                <input type="radio" id="diversion5" name="diversion" value="5">
+                <label for="diversion5">5</label>
+            </div>
+            <div class="rating">
+                <label for="recomendacion">¿Recomendarías este juego a otros?</label>
+                <select id="recomendacion" name="recomendacion">
+                    <option value="si">Sí</option>
+                    <option value="no">No</option>
+                    <option value="ns">No se</option>
+                    <option value="podria ser">Podria ser</option>
+                </select>
+            </div>
+            <div>
+                <label for="comentarios">Comentarios adicionales:</label><br>
+                <textarea id="comentarios" name="comentarios" rows="4" cols="50"></textarea>
+            </div>
+            <br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpiar">
+        </form>
+        
+    </div>
+</body>
+</html>

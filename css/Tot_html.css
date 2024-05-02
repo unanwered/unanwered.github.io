@@ -1,0 +1,251 @@
+body{
+  background-color:  #000000;
+}
+nav {
+  float: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: auto;
+  padding: 3;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  background-color: #333;
+  margin-left: auto;
+  text-align: center;
+}
+
+nav a {
+  display: block;
+  padding: 15px;
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+}
+
+nav a:hover {
+  background-color: #444;
+}
+header {
+/*background-image: url(fotos/fotoprincipal.png);*/
+  background-image: url(imagenes/fotoprincipal.png);
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+  position: relative;
+  border: 5px solid #333;
+  background-color: rgba(133, 122, 122, 0.8);
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(255, 243, 243, 0.2);
+  filter: brightness(50%);
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  font-size: 60px;
+  font-weight: bold;
+  color: snow;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  
+}
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+ color: rgb(255, 0, 0);
+}
+
+p {
+  font-size: 24px;
+  color: snow;
+}
+H2{
+  background-color: #83419d ;
+  width: 700px;
+  margin: 0px auto;
+  font-size: 40px;
+  height: 50px;
+  letter-spacing: 15px;
+  text-align: center;
+  color:#fff;
+  border: 4px solid  #151516;
+}
+
+#tintulo {
+  width: 700px;
+  margin: 0px auto;
+  background-color:  #ffffff ;
+  font-size: 35px;
+  text-align: center;
+  border: 1px solid  #ffffff;
+}
+
+#TExto {
+  width: 700px;
+  margin: 0px auto;
+  background-color:  #ffffff ;
+  text-align: justify;
+  letter-spacing: 2px;
+  font-size: 20px;
+  border: 1px solid  #0e0e0e;
+}
+#imagen1 {
+  width: 700px;
+  margin: 9px auto;
+  background-color:  #000000 ;
+  top: 1000px;
+  text-align: center;
+  border: 1px solid  #0e0e0e;
+}
+
+#tintulu {
+  width: 700px;
+  margin: 0px auto;
+  background-color:  #83419d  ;
+  font-size: 35px;
+  text-align: center;
+  border: 1px solid  #0e0e0e;
+}
+#TExtO{
+  width: 700px;
+  margin: 0px auto;
+  background-color:  #ced2aa ;
+  text-align: justify;
+  letter-spacing: 2px;
+  font-size: 18px;
+  border: 1px solid  #0e0e0e;
+}
+#imagen2 {
+  width: 700px;
+  margin: 9px auto;
+  background-color:  #000000;
+  top: 1000px;
+  text-align: center;
+  border: 1px solid  #0e0e0e;
+}
+#tintulU {
+  width: 700px;
+  margin: 0px auto;
+  background-color:  #83419d  ;
+  font-size: 35px;
+  text-align: center;
+  border: 1px solid  #0e0e0e;
+}
+#TExTO{
+  width: 700px;
+  margin: 0px auto;
+  background-color:  #ced2aa ;
+  text-align: justify;
+  letter-spacing: 2px;
+  font-size: 17px;
+  border: 1px solid  #0e0e0e;
+}
+#imagen3 {
+  width: 700px;
+  margin: 9px auto;
+  background-color:  #ced2aa ;
+  top: 1000px;
+  text-align: center;
+  border: 1px solid  #0e0e0e;
+}
+#tintuLU {
+  width: 700px;
+  margin: 0px auto;
+  background-color:  #83419d  ;
+  font-size: 35px;
+  text-align: center;
+  border: 1px solid  #ffffff;
+  
+}
+#TEXTO{
+  width: 700px;
+  margin: 0px auto;
+  background-color:  #ced2aa ;
+  text-align: justify;
+  letter-spacing: 2px;
+  font-size: 17px;
+  border: 1px solid  #0e0e0e;
+}
+#imagen4 {
+  width: 700px;
+  margin: 9px auto;
+  background-color:  #ced2aa ;
+  top: 1000px;
+  text-align: center;
+  border: 1px solid  #0e0e0e;
+}
+article{
+  width: 700px;
+  margin: 0px auto;
+  background-color:  #ced2aa ;
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 17px;
+  border: 3px solid  #151516;
+}
+h4{
+  font-size: 30px;
+}
+dt{
+  font-weight: bold;
+}
+#articulo{
+  width: 700px;
+  margin: 0px auto;
+  background-color:  #ced2aa ;
+  text-align: left;
+  letter-spacing: 2px;
+  font-size: 17px;
+  border: 3px solid  #151516;
+}
+h5{
+  font-size: 30px;
+}
+#observado_xd{
+  width: 500px;
+  margin: 0px auto;
+  background-color:  #ced2aa ;
+  text-align: justify;
+  letter-spacing: 2px;
+  font-size: 17px;
+  border: 3px solid  #151516;
+}
+table{
+  width: 500px;
+  margin: 1px auto;
+  border: 3px;
+}
+caption{
+background-color: #333;
+color:snow;
+font-size: 30px;
+}
+td{
+background-color: snow;
+text-align: center;
+}
+th{
+background-color: snow;    
+
+}
+footer{
+background-color: #e5e0cc;
+height: 60px;
+  position: center;
+  border: 3px solid #333;
+  background-color: rgba(209, 226, 128, 0.8);
+  border-radius: 40px;
+  box-shadow: 0px 0px 20px rgba(224, 224, 224, 0.2);
+  filter: brightness(90%);
+  font-size: 25px;
+  text-align: center;
+}

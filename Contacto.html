@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #dcd6ab;
+            width: 800px;
+            border: 3px solid  #ffffff;
+            margin: auto;
+        }
+      
+        form { 
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(59, 20, 59);
+            font-size: 20px;
+            font-style: italic;
+            font-weight: bold;
+            width: 100px;
+        }
+        h1{
+            background-color: aliceblue;
+            margin-left: auto;
+            padding: 15px;
+            margin-bottom: 30px;
+            letter-spacing: 15px;
+            color: rgb(48, 7, 87);  
+        }
+        button{
+           padding: 15px;
+           color: rgb(0, 0, 0);
+           font-weight: bold;
+        }
+        input{
+            color: black;
+            font-weight: bolder;
+        }
+
+    </style>
+</head>
+<body>
+
+<h1>Formulario de Contacto</h1>
+
+<form action="mailto:tuemail@example.com" method="post" enctype="text/plain">
+    <label for="nombre">Nombre:</label><br>
+    <input type="text" id="nombre" name="nombre" required><br><br>
+
+    <label for="email">Correo electrónico:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="mensaje">Mensaje:</label><br>
+    <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea><br><br>
+
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Limpiar">
+</form>
+
+<!-- Botón para ir a la página principal -->
+<button onclick="window.location.href = 'index.html';">Ir a la página principal</button>
+
+</body>
+</html>
