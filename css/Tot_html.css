@@ -73,11 +73,22 @@ H2{
   width: 700px;
   margin: 0px auto;
   font-size: 40px;
-  height: 50px;
+  height: 100px;
   letter-spacing: 15px;
   text-align: center;
   color:#fff;
-  border: 4px solid  #151516;
+  border: 3px solid  #ffffff;
+}
+#Modo{
+  background-color: #83419d ;
+  width: 700px;
+  margin: 0px auto;
+  font-size: 40px;
+  height: 60px;
+  letter-spacing: 15px;
+  text-align: center;
+  color:#fff;
+  border: 3px solid  #ffffff;
 }
 
 #tintulo {
@@ -93,7 +104,7 @@ H2{
   width: 700px;
   margin: 0px auto;
   background-color:  #ffffff ;
-  text-align: justify;
+  text-align: center;
   letter-spacing: 2px;
   font-size: 20px;
   border: 1px solid  #0e0e0e;
@@ -113,8 +124,7 @@ H2{
   background-color:  #83419d  ;
   font-size: 35px;
   text-align: center;
-  border: 1px solid  #0e0e0e;
-}
+  border: 1px solid  #ffffff;}
 #TExtO{
   width: 700px;
   margin: 0px auto;
@@ -141,13 +151,13 @@ H2{
   background-color:  #83419d  ;
   font-size: 35px;
   text-align: center;
-  border: 1px solid  #0e0e0e;
+  border: 1px solid  #ffffff;
 }
 #TExTO{
   width: 700px;
   margin: 0px auto;
-  background-color:  #ced2aa ;
-  text-align: justify;
+  background-color:  #6c446d ;
+  text-align: center;
   letter-spacing: 2px;
   font-size: 17px;
   border: 1px solid  #0e0e0e;
@@ -155,10 +165,11 @@ H2{
 #imagen3 {
   width: 700px;
   margin: 9px auto;
-  background-color:  #ced2aa ;
+  background-color:  #553556 ;
   top: 1000px;
   text-align: center;
   border: 1px solid  #0e0e0e;
+  color: #ffffff;
 }
 #tintuLU {
   width: 700px;
@@ -172,8 +183,8 @@ H2{
 #TEXTO{
   width: 700px;
   margin: 0px auto;
-  background-color:  #ced2aa ;
-  text-align: justify;
+  background-color:  #6c446d ;
+  text-align: center;
   letter-spacing: 2px;
   font-size: 17px;
   border: 1px solid  #0e0e0e;
@@ -181,22 +192,27 @@ H2{
 #imagen4 {
   width: 700px;
   margin: 9px auto;
-  background-color:  #ced2aa ;
+  background-color:  #553556 ;
   top: 1000px;
   text-align: center;
   border: 1px solid  #0e0e0e;
+  color: #ffffff;
 }
 article{
   width: 700px;
   margin: 0px auto;
-  background-color:  #ced2aa ;
+  background-color:  #553556 ;
   text-align: center;
   letter-spacing: 2px;
   font-size: 17px;
   border: 3px solid  #151516;
 }
-h4{
+h3{
   font-size: 30px;
+  letter-spacing: 4px;
+  border: 3px solid  #d8d8f1;
+  background-color: #d8d8f1;
+
 }
 dt{
   font-weight: bold;
@@ -212,20 +228,29 @@ dt{
 }
 h5{
   font-size: 30px;
+  font-size: 25px;
+  border: 2px solid #ffffff;
+
 }
 #observado_xd{
-  width: 500px;
+  width: 700px;
   margin: 0px auto;
-  background-color:  #ced2aa ;
-  text-align: justify;
-  letter-spacing: 2px;
-  font-size: 17px;
+  background-color:  #83419d ;
+  text-align: center;
+  letter-spacing: 3px;
+  font-size: 18px;
   border: 3px solid  #151516;
+  color: #ffffff;
+  height: 160px;
+
 }
 table{
   width: 500px;
   margin: 1px auto;
   border: 3px;
+  font-size: 25px;
+  text-align: center;
+
 }
 caption{
 background-color: #333;
@@ -256,4 +281,20 @@ height: 60px;
   width: 250px;
   height: 250px;
   
+}
+dd{
+  background-color: #83419d;
+}
+
+dl{
+  background-color: #553556;
+  margin: 1px auto;
+  width: auto;
+  height: auto;
+  margin-right: 50px;
+  
+}
+footer{
+  background-color: #6c446d;
+  color: #ffffff;
 }
